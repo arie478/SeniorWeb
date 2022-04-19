@@ -2,65 +2,129 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="style.css" />
+
 </head>
+
 <body>
-<div id="menu">
-<li><a href="#about">About Me</a></li>
-<li><a href="#photos">My Photos</a></li>
-<li><a href="#playlist">My Playlist</a></li>
-<li><a href="#like">Like</a></li>
-<li><a href="#qrcoder">QR code</a></li>
-<li><a href="#spa">Q&A</a></li>
-<li><a href="#contact">Contact Me</a></li>
-</div>
+
+  <div id="fb-root">
+  </div>
+
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v13.0" nonce="slqPakbu">
+</script>
+  
+  <div id="menu">
+    <li><a id="active" href="#about">About Me</a></li>
+    <li><a href="#photos">My Photos</a></li>
+    <li><a href="#playlist">My Playlist</a></li>
+    <li><a href="#like">Like</a></li>
+    <i><a href="#qrcoder">QR code</a></li>
+    <li><a href="#spa">Q&A</a></li>
+    <li><a href="#contact">Contact Me</a></li>
+  </div>
 		  
 <section id="about" class="section">
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-about me
-<br/>
-<br/>
-<br/>
+<h1>About Me</h1>
+<div id="about-me">
+  <div id="text-box-about">
+    <h2>About me</h2>
+
+    <p>
+      Hello! My name is Arato Andras. I was born in 1945 and hail from Kőszeg, a town in Vas County, Hungary and currently I live in Budapest with my wife Gabriella and my son.
+    </p>
+
+    <p> 
+      I went to the Budapest University of Technology and Economics, studying under the Faculty of Electrical Engineering to become an electrical and lighting engineer and graduated from there in 1969.
+      After long life of working at the field, I retired and worked as a DJ for a local radio station in my town for about five years. In 2019, I became the advertising face for Coca-Cola in hungary and in 2020, I have starred in the Hungarian edition of Masked Singer that was broadcasted on the TV station RTL Klub.
+    </p>   
+
+    <p>
+      Now you might wonder, how did from being an engineer I became the advertising face and got to particiate in a TV show? That is because I have been in and out of the stock photo and advertisement industry as a model. 
+    </p>
+
+    <p>
+      It all began when I took up travelling to foreign countries such as Turkey and Russia for recreational purposes and kept a blog about my life and travels. The photos associated with such travels are said to be the cause of my fame. While vacationing in Turkey, I decided to upload personal vacation photos onto social media site iWiW, which were noticed by a photographer. I agreed to his request and soon enough my modelling for stock photography garnered attention ( It was around 2011), and I have come to be known in meme culture as "Hide the Pain Harold" due to many people seeing my smile as fake, as if I was masking sorrow, hence came the name.
+    </p>
+
+    <p>
+      During this trying times when we are all quarentined and lonely, I am glad I am able to spread around happiness and joy with those so called "memes" that people make with my photo. I don't feel lonely anymore with all of that wonderfull community and I hope we all together managed to pull through.
+    </p>
+
+    </div>
+
+  <div id="about-me-pic">
+    <img src="HaroldSerious.jpg">
+  </div>
+</div>
+
 </section>
 
 <section id="photos" class="section">
 <br/>
 <br/>
+<!--- About me pictures --->
+<h1>My Photos</h1>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-my photos
-<br/>
-<br/>
-<br/>
+<div id="imagesBox">
+
+  <div id="image">
+    <img src="HaroldPain.webp">
+    <span>The famous "Hide the pain Harold" picture</span>
+  </div>
+
+  <div id="image">
+    <img src="HaroldStock.jpg">
+    <span>One of my many stock images as a model</span>
+  </div>
+
+  <div id="image">
+    <img src="HaroldFan.jpg">
+    <span>Meeting fans at VK festival, St. Petersburg, Russia</span>
+  </div>
+
+  <div id="image">
+    <img src="HaroldTed.jpg">
+    <span>TED talk about my life and becoming a meme  </span>
+  </div>
+
+  <div id="image">
+    <img src="HaroldCloud9.jpg">
+    <span>
+      Special guest at Cloud 9+ concert in Budapest
+    </span>
+
+  </div>
+</div>
+
 </section>
 
 <section id="playlist" class="section">
+  <br/>
+  <br/>
+  <br/>
+<br/>
+<h1>My Playlist</h1>
+
+<div id="text-box-video-one">
+<p>
+  Remember me being a special guest at the Cloud 9+ concert? (See in the pictures above)
+</p>
+
+<p>
+  Well, I was even more than that! The Hungarian band Cloud 9+ wrote a song called “Hide the Pain”. And I got to star in music video as an office worker who becomes fed up with his boss.
+</p>
+
+<p>
+  In my opinion this video is a funny and relatable take on the "Hide the Pain" philosophy that my stock photos got known for, and it is an incredible musical song.
+</p>
+
+<p>
+  Please enjoy the music video below!
+</p>
+</div>
+
 <br/>
 <br/>
 <br/>
@@ -75,35 +139,62 @@ my photos
 <br/>
 <br/>
 <br/>
+
+<div id="music-vid">
+  <video width="560" height="314"  controls onloadstart="this.volume=0.1">
+    <source src="Cloud 9+ - Hide The Pain (Official Music Video).mp4" type=video/mp4>
+  </video>
+</div>
+
+
+<br/>
+<div id="text-box-video-two">
+  And if you liked that, please enjoy this exlusive behind the scence video about how I was recorded! 
+</div>
+
 <br/>
 <br/>
-my playlist
 <br/>
 <br/>
 <br/>
-</section>
+<br/>
+
+
+
+<br/>
+<div id="music-vid">
+  <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fpainharold%2Fvideos%2F232890500585960%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+</div>
+
 
 <section id="like" class="section">
+  <br/>
+  <br/>
+  <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-give me a like
-<br/>
-<br/>
-<br/>
+<h1>Give Me A Like</h1>
+
+<div id="like-text">
+  <p>
+    Did you ever enjoy my work?
+  </p>
+
+  <p>
+    Have those pictures ever bring a smile to your face?
+  </p>
+
+  <p>
+    Like and share to spread around the joy!
+  </p>
+  </div>
+
+  <br/>
+
+<div id = "fb-like-box">
+  <div class="fb-like" data-href="https://web-development-environments-2022.github.io/assignment1-arie478/" data-width="" data-layout="standard" data-action="like" data-size="large" data-share="true">
+  </div>
+</div>
+
 </section>
 
 <section id="qrcoder" class="section">
@@ -111,48 +202,131 @@ give me a like
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-scan my code
-<br/>
-<br/>
-<br/>
+
+<h1>Scan My Code</h1>
+
+<div id="scan-code">
+  <p>
+    Know any other people that hide the pain in quarantine?
+  </p>
+
+  <p>
+    Show them that they are not alone!
+  </p>
+
+  <p>
+    Let them scan the code below to reach this place.
+  </p>
+  </div>
+
+
+
+
+
+<div id="qrcoder-image">
+  <img src="HaroldWorkSignQR.png">
+</div>
+
 </section>
 
 <section id="spa" class="section">
+  <br/>
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-ans
-<br/>
-<br/>
-<br/>
-</section>
 
+
+  
+<h1>Ans</h1>
+
+
+<div id="web-table">
+<br/>
+<br/>
+
+
+<div id="answers">
+<p>
+  Many people often ask me about the differences between Web 1.0, 2.0 and 3.0.
+</p>
+<p>
+  With all of my fame from modeling, it's easy to forget I was originally an engineer, so fortunately I just happen have the answer!
+</p>
+</div>
+
+<br/>
+<br/>
+<br/>
+<br/><br/>
+<br/>
+
+
+  <table>
+    <thead>
+      <tr>
+        <th>Web 1.0</th>
+        <th>Web 2.0</th>
+        <th>Web 3.0</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Supports reading only</td>
+        <td>Supports both reading and writing</td>
+        <td>Supports portability and personalization</td>
+      </tr>
+      <tr>
+        <td>Is about the company</td>
+        <td>Is about the community</td>
+        <td>Is about sharing content</td>
+      </tr>
+      <tr>
+        <td>Used for owning content</td>
+        <td>Used for sharing content</td>
+        <td>Used for consolidating content</td>
+      </tr>
+      <tr>
+        <td>Use Case example : Searching about me, you will get results from news site that give information about me but lack interaction </td>
+        <td>Use Case example : Searching about me, you will get results from sites like Youtube or Wikipedia, and you are able to make your own content about me and upload it to those sites</td>
+        <td>Use Case example : Searching about me, you will get results from sites like Reddit, being able to interact with the community, create and share content and even offer your services (For example, making memes about me) </td>
+      </tr>
+    </tbody>
+  </table>
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+</div>
+
+</section>
 <section id="contact" class="section">
+
+<h1>Contact Me</h1>
+
+<br/>
+<br/>
+
+<div id = "email-form">
+  <form action="mailto:ariekat@post.bgu.ac.il" method="post" enctype="text/plain">
+    Name:<br>
+    <input type="text" placeholder="Name" required name="Name"><br>
+    E-mail:
+    <br>
+    <input type="text"  type="text" placeholder="Email" required name="Email">
+    <br>
+    Comment:<br>
+    <input type="text" type="text" placeholder="Message" required name="Message" size="50">
+    <br>
+    <button type="submit" value="Send"> SEND </button>
+    <button type="reset" value="Reset"> RESET </button>
+  </form>
+</div>
+
+<!---Place holder text --->
 <br/>
 <br/>
 <br/>
@@ -163,16 +337,34 @@ ans
 <br/>
 <br/>
 <br/>
+<!---Place holder text --->
+
+<!---Place holder text --->
 <br/>
 <br/>
 <br/>
 <br/>
 <br/>
 <br/>
-contact me
 <br/>
 <br/>
 <br/>
+<br/>
+<!---Place holder text --->
+
+<!---Place holder text --->
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<!---Place holder text --->
+
 </section>
 
 
