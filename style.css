@@ -124,19 +124,19 @@ body
 	background: white;
 	font-family: 'Helvetica', 'Arial', sans-serif;
     color: #000051;
-    font-size: 2vh;
+    font-size: 1vw;
     background-color: white;
 
 }
 
 #about
 {
-	padding-top: 4vh;
+	padding-top: 2vw;
 }
 
 #photos
 {
-	padding-top: 4vh;
+	padding-top: 2vw;
 }
 
 
@@ -212,14 +212,14 @@ On hover show the image in full scale with place at bottom for text
 	display: flex;
 	box-sizing: border-box;
 	width: 100%;
-	height: 80vh;
+	height: auto;
 	
 
 }
 
 h1
 {
-	font-size: 5vh;
+	font-size: 2.5vw;
 	text-align: center;
 	text-shadow:#bbe5ff 0 -1px 0,
 	#516c86 1px 1px 0,
@@ -242,15 +242,15 @@ h1
 
 	box-sizing: border-box;
 	float: left;
-	width: 140vh;
-	padding-left: 7vh;
-	padding-right: 7vh;
-	height: 70vh;
-	margin-left:  2vh;
+	width: 70vw;
+	padding-left: 3.5vw;
+	padding-right: 3.5vw;
+	height: 35vw;
+	margin-left:  1vw;
 	background-color: rgba(242, 244, 255, 0.5);
 	line-height:1.9;
 	border: 0.2vh solid #516c86;
-	margin-top: 5vh;
+	margin-top: 2.8vw;
 	box-shadow: 0 20px 30px rgba(0,0,0,0.1);
 }
 
@@ -258,10 +258,10 @@ h1
 {
 	box-sizing: border-box;
 	float: left;
-	width: 100vh;
-	padding-left: 7vh;
-	padding-right: 7vh;
-	height: 25vh;
+	width: 50vw;
+	padding-left: 3.5vw;
+	padding-right: 3.5vw;
+	height: 12vw;
 	margin-left:  25%;
 	background-color: #f2f4ff;
 	line-height:1.9;
@@ -274,10 +274,10 @@ h1
 {
 	box-sizing: border-box;
 	float: left;
-	width: 100vh;
-	padding-left: 7vh;
-	padding-right: 7vh;
-	height: 8vh;
+	width: 50vw;
+	padding-left: 3.5vw;
+	padding-right: 3.5vw;
+	height: 4vw;
 	margin-left:  25%;
 	background-color: #f2f4ff;
 	line-height:1.9;
@@ -290,7 +290,21 @@ h1
 #music-vid
 {
 	text-align: center;
+	
 
+}
+
+#music-vid >video
+{
+	width: 30vw;
+	height: 20vw;
+}
+
+
+#music-vid >iframe
+{
+	width: 30vw;
+	height: 20vw;
 }
 
 
@@ -304,13 +318,13 @@ h1
 
 	box-sizing: border-box;
 	float: right;
-	width: 40vh;
-	height: 40vh;
+	width: 20vw;
+	height: 20vw;
 	margin-right: 3vh;
 	margin-left: 3vh;
 	background-color: #516c86;
 	padding: 1vh;
-	margin-top: 15vh;
+	margin-top: 40%;
 	box-shadow: 0 20px 30px rgba(0,0,0,0.1);
 }
 
@@ -329,10 +343,10 @@ h1
 	transition: 0.5s;
 
 	box-sizing: border-box;
-	width: 60vh;
-	padding-left: 5vh;
-	padding-right: 5vh;
-	height: 12vh;
+	width: 30vw;
+	padding-left: 2.5vw;
+	padding-right: 2.5vw;
+	height: 6vw;
 	
 	background-color: rgba(242, 244, 255, 0.5);
 	line-height:1.9;
@@ -366,10 +380,10 @@ Style the Web answers table
 
 	box-sizing: border-box;
 	float: left;
-	width: 100vh;
-	padding-left: 7vh;
-	padding-right: 7vh;
-	height: 12vh;
+	width: 50vw;
+	padding-left: 3.5vw;
+	padding-right: 3.5vw;
+	height: 6vw;
 	margin-left:  0vh;
 	background-color: #f2f4ff;
 	line-height:1.9;
@@ -393,7 +407,7 @@ Style the Web answers table
 
 table 
 {
-	width: 100vh;
+	width: 50vw;
 	border-collapse: collapse;
 	overflow: hidden;
 	box-shadow: 0 0 20px rgba(0,0,0,0.1);
@@ -441,10 +455,10 @@ form > input > text
 	transition: 0.5s;
 
 	box-sizing: border-box;
-	width: 60vh;
-	padding-left: 5vh;
-	padding-right: 5vh;
-	height: 12vh;
+	width: 30vw;
+	padding-left: 2.5vw;
+	padding-right: 2.5vw;
+	height: 6vw;
 	
 	background-color: rgba(242, 244, 255, 0.5);
 	line-height:1.9;
@@ -490,33 +504,40 @@ form > input > text
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], textarea {
 	width: 100%; /* Full width */
-	padding: 12px; /* Some padding */ 
-	border: 1px solid #ccc; /* Gray border */
-	border-radius: 4px; /* Rounded borders */
+	padding: 0.5vw; /* Some padding */ 
+	border: 0.1vw solid #ccc; /* Gray border */
+	border-radius: 0.2vw; /* Rounded borders */
 	box-sizing: border-box; /* Make sure that padding and width stays in place */
-	margin-top: 6px; /* Add a top margin */
-	margin-bottom: 16px; /* Bottom margin */
-	resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+	margin-top: 0.5vw; /* Add a top margin */
+	margin-bottom: 1.5vw; /* Bottom margin */
+	resize: none; /* Allow the user to vertically resize the textarea (not horizontally) */
+	height: 1.5vw;
+  }
+
+  textarea
+  {
+	height: 8vw;
   }
   
   /* Style the submit button with a specific background color etc */
   input[type=submit], input[type=reset]
   {
-	background-color: #04AA6D;
 	background-color: #e1f0fa;
 	color: #516c86;
-	padding: 12px 20px;
+	padding: 0.5vw 1vw;
 	border: none;
-	border-radius: 4px;
+	border-radius: 0.2vw;
 	cursor: pointer;
+	font-size: 1vw;
+	text-align: center;
 
 	border: 0.2vh solid #516c86;
+	height: 2vw;
   }
   
   /* When moving the mouse over the submit button, add a darker green color */
   input[type=submit]:hover, input[type=reset]:hover
   {
-	background-color: #45a049;
 	background: #a5c0d3;
 	
   }
@@ -528,8 +549,8 @@ input[type=text], textarea {
 	background-position: center; /* Center the image */
   	background-repeat: no-repeat; /* Do not repeat the image */
   	background-size: cover; /* Resize the background image to cover the entire container */
-	height: 80vh;
-	padding-top: 5vh;
+	height: 40vw;
+	padding-top: 2.5vw;
   }
 
   /* Add a background color and some padding around the form */
@@ -538,10 +559,10 @@ input[type=text], textarea {
 
 	border-radius: 20px;
 	box-sizing: border-box;
-	width: 34vh;
-	padding-left: 2vh;
-	padding-right: 2vh;
-	height: 45vh;
+	width: 18vw;
+	padding-left: 1vw;
+	padding-right: 1vw;
+	height: 27.5vw;
 	background-color: rgb(242, 244, 255, 0.9);
 	line-height:1.9;
 	
