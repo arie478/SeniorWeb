@@ -3,20 +3,17 @@
 	scroll-behavior: smooth;
 	padding: 0;
 	margin: 0;
+	box-sizing: border-box;
 }
-
-#menu-box
-{
-	margin: 0 auto;
-}
-
 
 /* Add a background color to the menu bar */
 #menu
 {
+	margin: 0 auto;
 	/*
 	Removes the bullet points, closes the margins and padding
 	*/
+	
 	list-style-type: none;
 
 	overflow: hidden;
@@ -36,40 +33,47 @@
 	display: flex;
 	box-sizing: border-box;
 	width: 100%;
+	
+
+
 }
 
-li
-{
-	float: left;
-}
+ 
+/*
+afwsdtg6y456546y45ryrt
+*/
 
 /* Style the links inside the navigation bar */
 #menu a
 {
 
+
 	box-sizing: border-box;
 	float:left;
 	color: #516c86;
 	text-align: center;
-	margin-top: 1vh;
-	margin-bottom: 1vh;
-	margin-left: 1vh;
-	padding: 1vh 2vh;
+	
+	padding: 1vw 2vw;
 	text-decoration: none;
-	font-size: 2vh;
+	font-size: 1vw;
 
 
 
 	cursor: pointer;
-	width: 15vh;
-  	height: 5vh;
-  	border: 0.1vh solid #516c86;
+	width: 7vw;
+  	height: 1vw;
+  	border: 0.1vw solid #516c86;
   	display: flex;
 	align-items: center;
 	justify-content: center;
 	position: relative;
 	z-index: 0;
 	transition: 1s;
+
+	margin: 0 auto;
+	margin-top: 0.5vw;
+	margin-bottom: 0.5vw;
+	
 
 }
 
@@ -82,22 +86,22 @@ li
   }
 
   #menu a::before {
-	height: 5vh;
-	width: 13vh;
+	height: 2.2vw;
+	width: 4vw;
   }
   
   #menu a::after {
-	width: 15vh;
-	height: 3vh;
+	width: 7vw;
+	height: 1.4vw;
   }
 
   #menu a:hover::before {
-	width: 0vh;
+	width: 0vw;
 	background: #a5c0d3;
   }
   
   #menu a:hover::after {
-	height: 0vh;
+	height: 0vw;
 	background: #a5c0d3;
   }
 
