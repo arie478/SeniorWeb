@@ -5,7 +5,25 @@
 
 </head>
 
+<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script src="https://cdn.tiny.cloud/1/dz9sxccoz916tinpdy53xth74a542bql9ipdiodzzn2flxvf/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+
+<script>
+  tinymce.init({
+    selector: "#subject",
+    plugins: "emoticons autoresize",
+    toolbar: "emoticons",
+    toolbar_location: "bottom",
+    menubar: false,
+    statusbar: false,
+    width: '100%',
+    
+  });
+</script>
+
+COPY
 
 <body>
 
@@ -193,8 +211,7 @@
   <br/>
 
 <div id = "fb-like-box">
-  <div class="fb-like" data-href="https://web-development-environments-2022.github.io/assignment1-arie478/" data-width="" data-layout="standard" data-action="like" data-size="large" data-share="true">
-  </div>
+  <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fweb-development-environments-2022.github.io%2Fassignment1-arie478%2F&width=450&layout=standard&action=like&size=large&share=true&height=35&appId" width="450" height="35" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe></div>
 </div>
 
 </section>
@@ -317,15 +334,16 @@
 
 <div id = "email-form-box">
   <div id = "email-form">
-    <form action="mailto:ariekat@post.bgu.ac.il" method="post" enctype="text/plain">
+    <form action="https://formsubmit.co/ariekat@post.bgu.ac.il" method="POST" enctype="text/plain">
       <label for="fname">Name:</label>
       <input type="text" placeholder="Your name" required name="Name"><br>
       <label for="fmail">E-mail:</label>
       <br>
-      <input type="text"  type="text" placeholder="Your email" required name="Email">
+      <input type="email"  type="email" placeholder="Your email" required name="Email">
       <br>
       <label for="fsubject">Subject:</label>
-      <textarea id="subject" name="subject" placeholder="Write your message here"></textarea>
+      <textarea id="subject" name="message" placeholder="Write your message here"></textarea>
+      </br>
       <input type="submit" value="Send">
       <input type="reset" value="Reset">
     </form>

@@ -333,8 +333,11 @@ h1
 {
 	margin: 0 auto;
 	text-align: center;
-	width: 50%;
+	width: 100% !important;
 }
+
+
+
 
 #like-text
 {
@@ -533,6 +536,8 @@ input[type=text], textarea {
 
 	border: 0.2vh solid #516c86;
 	height: 2vw;
+
+	margin-left: 4vw;
   }
   
   /* When moving the mouse over the submit button, add a darker green color */
