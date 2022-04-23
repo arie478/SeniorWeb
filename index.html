@@ -8,6 +8,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<!---------- Emoji section ---------->
 <script src="https://cdn.tiny.cloud/1/dz9sxccoz916tinpdy53xth74a542bql9ipdiodzzn2flxvf/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
 
 <script>
@@ -23,16 +24,18 @@
   });
 </script>
 
-COPY
-
 <body>
 
   <div id="fb-root">
   </div>
 
+<!---------- Facebook section ---------->
+
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v13.0" nonce="slqPakbu">
 </script>
-  
+
+<!---------- Top bar menu section ---------->
+
     <div id="menu">
         <a id="active" href="#about">About Me</a>
         <a href="#photos">My Photos</a>
@@ -42,7 +45,9 @@ COPY
         <a href="#spa">Q&A</a>
         <a href="#contact">Contact Me</a>
     </div>
-		  
+	
+<!---------- About me section ---------->  
+
 <section id="about" class="section">
 <br/>
 <br/>
@@ -81,10 +86,12 @@ COPY
 
 </section>
 
+<!---------- Photos section ---------->
+
 <section id="photos" class="section">
 <br/>
 <br/>
-<!--- About me pictures --->
+
 <h1>My Photos</h1>
 <br/>
 <div id="imagesBox">
@@ -119,6 +126,8 @@ COPY
 </div>
 
 </section>
+
+<!---------- Playlist section ---------->
 
 <section id="playlist" class="section">
   <br/>
@@ -166,7 +175,6 @@ COPY
   </video>
 </div>
 
-
 <br/>
 <div id="text-box-video-two">
   And if you liked that, please enjoy this exlusive behind the scence video about how I was recorded! 
@@ -179,13 +187,12 @@ COPY
 <br/>
 <br/>
 
-
-
 <br/>
 <div id="music-vid">
   <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fpainharold%2Fvideos%2F232890500585960%2F&show_text=false&width=560&t=0" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
 </div>
 
+<!---------- Like button section ---------->
 
 <section id="like" class="section">
   <br/>
@@ -238,31 +245,25 @@ COPY
   </p>
   </div>
 
-
-
-
-
 <div id="qrcoder-image">
   <img src="HaroldWorkSignQR.png">
 </div>
 
 </section>
 
+<!---------- Answers table ---------->
+
 <section id="spa" class="section">
   <br/>
 <br/>
 <br/>
 <br/>
-
-
   
 <h1>Ans</h1>
-
 
 <div id="web-table">
 <br/>
 <br/>
-
 
 <div id="answers">
 <p>
@@ -278,7 +279,6 @@ COPY
 <br/>
 <br/><br/>
 <br/>
-
 
   <table>
     <thead>
@@ -322,33 +322,37 @@ COPY
 </div>
 
 </section>
+
+<!---------- Contact me section ---------->
+
 <section id="contact" class="section">
-
   <br/>
   <br/>
   <br/>
   <br/>
-
 
 <h1>Contact Me</h1>
 
 <div id = "email-form-box">
   <div id = "email-form">
-    <form action="https://formspree.io/f/xlezoenv" method="POST" enctype="text/plain">
+    <form action="https://formspree.io/f/xlezoenv" method="POST">
       
-      <label for="fname">Name:
-        <input type="text"  placeholder="Your name" required name="name">
+      <label>
+        Name:
+        <input type="text"  placeholder="Your name" name="name">
         <br>
       </label>
 
-      <label for="fmail">E-mail:
+      <label>
+        E-mail:
         <br>
-        <input type="email" placeholder="Your email" required name="email">
+        <input type="email" placeholder="Your email" name="email">
         <br>
       </label>
 
-      <label for="fsubject">Subject:
-        <textarea id="subject" required name="message" placeholder="Write your message here"></textarea>
+      <label>
+        Subject:
+        <textarea id="subject" name="message" placeholder="Write your message here"></textarea>
         </br>
       </label>
     
@@ -356,7 +360,7 @@ COPY
       <input type="reset" value="Reset">
 
     </form>
-    
+
   </div>
 </div>
 

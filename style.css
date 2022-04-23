@@ -1,3 +1,4 @@
+/* Global site settings */
 *
 {
 	scroll-behavior: smooth;
@@ -38,16 +39,9 @@
 
 }
 
- 
-/*
-afwsdtg6y456546y45ryrt
-*/
-
 /* Style the links inside the navigation bar */
 #menu a
 {
-
-
 	box-sizing: border-box;
 	float:left;
 	color: #516c86;
@@ -56,8 +50,6 @@ afwsdtg6y456546y45ryrt
 	padding: 1vw 2vw;
 	text-decoration: none;
 	font-size: 1vw;
-
-
 
 	cursor: pointer;
 	width: 7vw;
@@ -74,7 +66,6 @@ afwsdtg6y456546y45ryrt
 	margin-top: 0.5vw;
 	margin-bottom: 0.5vw;
 	
-
 }
 
 #menu a::before, #menu a::after {
@@ -116,7 +107,7 @@ afwsdtg6y456546y45ryrt
 
 
 
-
+/* Style the body of the entire website, global settings */
 body 
 {
 
@@ -217,6 +208,7 @@ On hover show the image in full scale with place at bottom for text
 
 }
 
+/* Style the titles style */
 h1
 {
 	font-size: 2.5vw;
@@ -233,6 +225,7 @@ h1
 	
 }
 
+/* Style the box about me*/
 #text-box-about
 {
 
@@ -254,6 +247,7 @@ h1
 	box-shadow: 0 20px 30px rgba(0,0,0,0.1);
 }
 
+/* Style the first text box about the music vid */
 #text-box-video-one
 {
 	box-sizing: border-box;
@@ -270,6 +264,7 @@ h1
 	box-shadow: 0 20px 30px rgba(0,0,0,0.1);
 }
 
+/* Style the second text box about the music vid recording */
 #text-box-video-two
 {
 	box-sizing: border-box;
@@ -286,7 +281,7 @@ h1
 	box-shadow: 0 20px 30px rgba(0,0,0,0.1);
 }
 
-
+/* Music box */
 #music-vid
 {
 	text-align: center;
@@ -294,21 +289,21 @@ h1
 
 }
 
+/* Music video itself */
 #music-vid >video
 {
 	width: 30vw;
 	height: 20vw;
 }
 
-
+/* Facebook video */
 #music-vid >iframe
 {
 	width: 30vw;
 	height: 20vw;
 }
 
-
-
+/* Style the about me picture itself */
 #about-me-pic > img
 {
 
@@ -328,7 +323,7 @@ h1
 	box-shadow: 0 20px 30px rgba(0,0,0,0.1);
 }
 
-
+/* Style the fb like button */
 #fb-like-box
 {
 	margin: 0 auto;
@@ -338,7 +333,7 @@ h1
 
 
 
-
+/* Style the like text box */
 #like-text
 {
 	flex: 1;
@@ -451,6 +446,8 @@ form > input > text
 	width: 20em;
 }
 
+
+/* Style the qrcode main box  */
 #scan-code
 {
 	flex: 1;
@@ -477,6 +474,7 @@ form > input > text
 	
 }
 
+/* Style the qrcoder image container  */
 #qrcoder-image
 {
 
@@ -488,6 +486,7 @@ form > input > text
 
 }
 
+/* Style the qrcoder image itself  */
 #qrcoder-image > img
 {
 
@@ -504,16 +503,16 @@ form > input > text
 
 
 
-/* Style inputs with type="text", select elements and textareas */
-input[type=text], textarea {
-	width: 100%; /* Full width */
-	padding: 0.5vw; /* Some padding */ 
-	border: 0.1vw solid #ccc; /* Gray border */
-	border-radius: 0.2vw; /* Rounded borders */
-	box-sizing: border-box; /* Make sure that padding and width stays in place */
-	margin-top: 0.5vw; /* Add a top margin */
-	margin-bottom: 1.5vw; /* Bottom margin */
-	resize: none; /* Allow the user to vertically resize the textarea (not horizontally) */
+/* Style inputs */
+input[type=text],input[type=email], textarea {
+	width: 100%;
+	padding: 0.5vw;
+	border: 0.1vw solid #ccc; 
+	border-radius: 0.2vw;
+	box-sizing: border-box;
+	margin-top: 0.5vw; 
+	margin-bottom: 1.5vw; 
+	resize: none; 
 	height: 1.5vw;
   }
 
@@ -522,7 +521,7 @@ input[type=text], textarea {
 	height: 8vw;
   }
   
-  /* Style the submit button with a specific background color etc */
+  /* Style the buttons */
   input[type=submit], input[type=reset]
   {
 	background-color: #e1f0fa;
@@ -540,7 +539,7 @@ input[type=text], textarea {
 	margin-left: 4vw;
   }
   
-  /* When moving the mouse over the submit button, add a darker green color */
+  /* When moving the mouse over the buttons */
   input[type=submit]:hover, input[type=reset]:hover
   {
 	background: #a5c0d3;
@@ -551,9 +550,9 @@ input[type=text], textarea {
   {
 	  width: 100%;
 	background-image: url("HaroldMulti.png");
-	background-position: center; /* Center the image */
-  	background-repeat: no-repeat; /* Do not repeat the image */
-  	background-size: cover; /* Resize the background image to cover the entire container */
+	background-position: center; 
+  	background-repeat: no-repeat; 
+  	background-size: cover; 
 	height: 40vw;
 	padding-top: 2.5vw;
   }
