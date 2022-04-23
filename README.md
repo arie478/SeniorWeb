@@ -59,6 +59,8 @@ https://web-development-environments-2022.github.io/209406164/
 
 ## Author
 
+Full Name: Arie Katz
+
 Id: 209406164
 
 User Name: arie478
