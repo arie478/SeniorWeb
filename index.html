@@ -335,15 +335,18 @@ COPY
 <div id = "email-form-box">
   <div id = "email-form">
     <form action="https://formspree.io/f/xlezoenv" method="POST" enctype="text/plain">
-      <label for="fname">Name:</label>
-      <input type="text"  placeholder="Your name" required name="name"><br>
-      <label for="fmail">E-mail:</label>
+      <label for="fname">Name:
+        <input type="text"  placeholder="Your name" required name="name"><br>
+      </label>
+      <label for="fmail">E-mail:
       <br>
       <input type="email" placeholder="Your email" required name="email">
       <br>
-      <label for="fsubject">Subject:</label>
+    </label>
+      <label for="fsubject">Subject:
       <textarea id="subject" required name="message" placeholder="Write your message here"></textarea>
       </br>
+    </label>
       <input type="submit" value="Send">
       <input type="reset" value="Reset">
     </form>
