@@ -1,5 +1,6 @@
 # Ben Gurion University - Internet development environments course
 ## First exercise - Building a personal website for seniors who are in isolation
+This project was done for a Web Development Environments course for educational purposes.
 
 The corona plague broke out about two years ago and increased the feeling of loneliness in many people, especially adults.
 
